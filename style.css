@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(238, 228, 228);
+}
+
+.container {
+    width: 100vh;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    background-color: white;
+    transform: translate(-40%);
+}
+.tabs {
+    text-align: center;
+}
+
+.tabs button {
+    background-color: brown;
+    text-align: center;
+    padding: 20px 60px;
+    cursor: pointer;
+    font-weight: 700;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.content_panel {
+    background-color: white;
+    padding: 50px 40px;
+}
+.content_panel h1 {
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+}
+
+.content_panel div {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;  
+} 
+
+.content_panel .content {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+.tabs .content {
+    background-color: #fff;
+}

@@ -1,22 +1,3 @@
-// script.js
-// const tabs = document.querySelectorAll(".tabs button");
-// const tabsContent = document.querySelectorAll(".content_panel div");
-
-
-// tabs.forEach((tab, index) => {
-//     tab.addEventListener("click", () => {
-//         tabsContent.forEach((content) => {
-//             content.classList.remove("content");
-//             content.style.display = "none";
-//         });
-//         tabs.forEach((tab)=> {
-//             tab.classList.remove("content");
-//         });
-//         tabsContent[index].classList.add("content");
-//         tabsContent[index].style.display = "block";
-//         tabs[index].classList.add("content");
-//     });
-// });
 
 const tabs = document.querySelectorAll(".tabs button");
 const tabContents = document.querySelectorAll(".content_panel div");
